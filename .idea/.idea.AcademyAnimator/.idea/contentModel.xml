@@ -5,8 +5,30 @@
     <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_AcademyAnimator.-975727589.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="AcademyAnimator.sln" t="IncludeFlat" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Fonts" t="Include">
+          <e p="OpenSans" t="Include">
+            <e p="License!.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="Demigiant" t="Include">
+            <e p="DOTween" t="Include">
+              <e p="Modules" t="Include">
+                <e p="DOTweenModuleAudio.cs" t="Include" />
+                <e p="DOTweenModulePhysics.cs" t="Include" />
+                <e p="DOTweenModulePhysics2D.cs" t="Include" />
+                <e p="DOTweenModuleSprite.cs" t="Include" />
+                <e p="DOTweenModuleUI.cs" t="Include" />
+                <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+                <e p="DOTweenModuleUtils.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="RunningBehavior.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AnimatorHashes.cs" t="Include" />
           <e p="ButtonBlender.cs" t="Include" />
@@ -16,7 +38,18 @@
           <e p="PlayerAnimatorEvents.cs" t="Include" />
           <e p="PlayerCamera.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
+          <e p="TooltipsController.cs" t="Include" />
           <e p="WeaponIdleOverride.cs" t="Include" />
+        </e>
+        <e p="Shaders" t="Include">
+          <e p="Skybox-Procedural.shader" t="Include" />
+        </e>
+        <e p="Standard Assets" t="Include">
+          <e p="Prototyping" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="WorldCoordDiffuse.shader" t="Include" />
+            </e>
+          </e>
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

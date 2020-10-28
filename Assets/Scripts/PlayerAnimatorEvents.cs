@@ -79,6 +79,11 @@ public class PlayerAnimatorEvents : MonoBehaviour
     {
         IsAttackAvailiable = true;
     }
+
+    public void ResetCombo()
+    {
+        _comboIndex = 0;
+    }
     
     public void AttachWeapon()
     {

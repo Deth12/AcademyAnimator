@@ -21,16 +21,49 @@
   <component name="ChangeListManager">
     <list default="true" id="773bb5c5-11a3-484f-81ae-9251919b0ece" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AcademyAnimator/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AcademyAnimator/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AcademyAnimator/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AcademyAnimator/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AcademyAnimator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AcademyAnimator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Attack_02.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Attack_02.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Attack_03.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Attack_03.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Attack_05.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Attack_05.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Attack_02.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Attack_02.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Attack_03.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Attack_03.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Attack_05.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Attack_05.anim.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/CharacterAnimator_Humaniod.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/CharacterAnimator_Humaniod.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/DIsarm.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/DIsarm.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Equip.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Equip.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Jump Running.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Jump Running.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Run.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Run.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Standing Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Standing Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Standing Taunt Battlecry.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Standing Taunt Battlecry.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Sword_Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Sword_Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Sword_StrafeLeft.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Sword_StrafeLeft.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Sword_StrafeRight.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Sword_StrafeRight.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Sword_WalkBwd.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Sword_WalkBwd.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Sword_WalkFwd.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Sword_WalkFwd.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Walk_Eqip_Front.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Walk_Eqip_Front.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Birch_Tree_02.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Birch_Tree_02.FBX.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/CharacterBlend.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CharacterBlend.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimatorHashes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimatorHashes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KeepBool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KeepBool.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerAnimatorEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerAnimatorEvents.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerCamera.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +73,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/RunningBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/SimpleFPS-main/SimpleFPS/Assets/Scripts/WeaponController.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -47,10 +84,13 @@
         <option value="$PROJECT_DIR$/Assets/ButtonBlender.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimatorHashes.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAnimatorEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/WeaponEquip.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WeaponIdleOverride.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAnimatorEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/TooltipsController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KeepBool.cs" />
+        <option value="$PROJECT_DIR$/Assets/RunningBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -68,6 +108,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/AcademyAnimator.app/Contents/MacOS/AcademyAnimations" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AcademyAnimator.app/Contents/MacOS" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -97,7 +145,7 @@
       <updated>1603800356141</updated>
       <workItem from="1603800362730" duration="4980000" />
       <workItem from="1603813068158" duration="3129000" />
-      <workItem from="1603823598235" duration="7969000" />
+      <workItem from="1603823598235" duration="12560000" />
     </task>
     <servers />
   </component>

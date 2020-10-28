@@ -108,4 +108,10 @@ public class PlayerController : MonoBehaviour
         _weapon.localPosition = _inHolsterPos;
         _weapon.localRotation = Quaternion.Euler(_inHolsterRot);
     }
+
+    public void AddRunSpeed(float value)
+    {
+        Debug.Log($"Applying run boost -> Default:{runSpeed} Target:{runSpeed + value}");
+        runSpeed += value;
+    }
 }
