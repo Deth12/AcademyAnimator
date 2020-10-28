@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c1b91b7449acc4e69b12de984cb96874
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _unarmedIdleAnimation: {fileID: 7400000, guid: 859ed2f4452dd497f8fcbe16336bd0ec,
+      type: 2}
+  - _armedIdleAnimation: {fileID: 7400000, guid: 9116a68aee33f4b4bbc869891b2b5056,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

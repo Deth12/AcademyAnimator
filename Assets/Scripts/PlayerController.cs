@@ -11,19 +11,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private  float moveSpeed = 5f;
     [SerializeField] private  float runSpeed = 8f;
     [SerializeField] private float rotateSpeed = 8f;
-    
-    private bool _isArmed = true;
-    public bool IsArmed
-    {
-        get => _isArmed;
-        set
-        {
-            _isArmed = value;
-            _animator.CrossFade
-                (value ? AnimatorHashes.State_PlayerEquip : AnimatorHashes.State_PlayerDisarm, 0.2f);
-        }
-    }
-    
+
     [Header("Weapon")]
     [SerializeField] private Transform _weapon = default;
     [SerializeField] private Transform _weaponHolder = default;
@@ -35,8 +23,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Vector3 _inHolsterPos = default;
     [SerializeField] private Vector3 _inHolsterRot = default;
 
-    public System.Action OnAttack;
-    
     private void Start()
     {
         _controller = GetComponent<CharacterController>();
@@ -92,7 +78,7 @@ public class PlayerController : MonoBehaviour
             return;
         
         if (Input.GetKeyDown(KeyCode.Q))
-            IsArmed = !IsArmed;
+            _animator.CrossFade(_animEvents.GetNextArmedState(), .2f);
 
         if (Input.GetKeyDown(KeyCode.Space))
             _animator.CrossFade(AnimatorHashes.State_PlayerJump, .2f);
@@ -100,10 +86,12 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.T))
             _animator.CrossFade(AnimatorHashes.State_PlayerTaunt, 0.2f);
 
-        if (Input.GetMouseButtonDown(0))
+        if (!_animEvents.IsArmed)
+            return;
+        
+        if (Input.GetMouseButtonDown(0) && _animEvents.IsAttackAvailiable)
         {
-            OnAttack?.Invoke();
-            _animator.CrossFade(AnimatorHashes.State_PlayerAttack, .2f);
+            _animator.CrossFade(_animEvents.GetNextAttack(), .2f);
         }
     }
 

@@ -20,38 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="773bb5c5-11a3-484f-81ae-9251919b0ece" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Ch36_nonPBR.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Ch36_nonPBR.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/CharacterAnimator.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/CharacterAnimator.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Crouch Idle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Crouch Idle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Crouch.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Crouch.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/FBX/Standing Disarm Over Shoulder.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Player/FBX/Standing Disarm Over Shoulder.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/FBX/Standing Idle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Player/FBX/Standing Idle.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/FBX/Unarmed Equip Over Shoulder.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Player/FBX/Unarmed Equip Over Shoulder.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/FBX/standing jump.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Player/FBX/standing jump.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/FBX/standing run forward.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Player/FBX/standing run forward.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/FBX/standing taunt battlecry.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Characters/Player/FBX/standing taunt battlecry.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Standing Disarm Over Shoulder.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Standing Disarm Over Shoulder.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Standing Idle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Standing Idle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Standing Jump.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Standing Jump.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Standing Run Forward.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Standing Run Forward.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Standing Taunt Battlecry.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Standing Taunt Battlecry.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Standing Walk Forward.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Standing Walk Forward.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Unarmed Equip Over Shoulder.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Characters/Player/Unarmed Equip Over Shoulder.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WeaponEquip.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WeaponEquip.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AcademyAnimator/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AcademyAnimator/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AcademyAnimator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AcademyAnimator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Attack_02.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Attack_02.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Attack_03.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Attack_03.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Attack_05.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/Attack_05.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/CharacterAnimator_Humaniod.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Humanoid/CharacterAnimator_Humaniod.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CharacterBlend.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CharacterBlend.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimatorHashes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimatorHashes.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerAnimatorEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerAnimatorEvents.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerCamera.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,11 +44,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/PlayerCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/ButtonBlender.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimatorHashes.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAnimatorEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/ButtonBlender.cs" />
+        <option value="$PROJECT_DIR$/Assets/WeaponEquip.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WeaponIdleOverride.cs" />
       </list>
     </option>
   </component>
@@ -117,7 +97,7 @@
       <updated>1603800356141</updated>
       <workItem from="1603800362730" duration="4980000" />
       <workItem from="1603813068158" duration="3129000" />
-      <workItem from="1603823598235" duration="1540000" />
+      <workItem from="1603823598235" duration="7969000" />
     </task>
     <servers />
   </component>

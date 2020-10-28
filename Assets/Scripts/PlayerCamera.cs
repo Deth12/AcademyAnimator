@@ -19,7 +19,7 @@ public class PlayerCamera : MonoBehaviour
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
-        
+
         if(_cameraTransform == null)
             _cameraTransform = Camera.main.transform;
         if(_pivot == null)
@@ -46,6 +46,10 @@ public class PlayerCamera : MonoBehaviour
 
     private void HandleRotations(float h, float v, float targetSpeed)
     {
+        // Workaround for camera jump on first mouse move
+        if(h < -5 || v < -5)
+            return;
+        
         _tiltAngle -= v * targetSpeed;
         _tiltAngle = Mathf.Clamp(_tiltAngle, _minAngle, _maxAngle);
         _pivot.localRotation = Quaternion.Euler(_tiltAngle, 0, 0);
