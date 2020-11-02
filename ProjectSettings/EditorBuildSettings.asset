@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/CharacterBlend.unity
+    guid: 1bef83ed2fc124a8c944e61c2e426959
   m_configObjects: {}

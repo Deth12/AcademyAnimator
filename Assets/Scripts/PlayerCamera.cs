@@ -1,7 +1,20 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class PlayerCamera : MonoBehaviour
 {
+    private bool _isCameraLocked;
+    public bool IsCameraLocked
+    {
+        get => _isCameraLocked;
+        set
+        {
+            _isCameraLocked = value;
+            Cursor.visible = !value;
+            Cursor.lockState = value ? CursorLockMode.Locked : CursorLockMode.None;
+        }
+    }
+    
     [SerializeField] private float _followSpeed = 4f;
     [SerializeField] private float _mouseSpeed = 3f;
 
@@ -15,10 +28,21 @@ public class PlayerCamera : MonoBehaviour
     private float _lookAngle;
     private float _tiltAngle;
 
+    private void OnEnable()
+    {
+        GlobalEvents.OnGamePause += () =>
+        {
+            IsCameraLocked = false;
+        };
+        GlobalEvents.OnGameUnpause += () =>
+        {
+            IsCameraLocked = true;
+        };
+    }
+
     private void Start()
     {
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
+        IsCameraLocked = true;
 
         if(_cameraTransform == null)
             _cameraTransform = Camera.main.transform;
@@ -28,6 +52,9 @@ public class PlayerCamera : MonoBehaviour
 
     private void LateUpdate()
     {
+        if(!IsCameraLocked)
+            return;
+        
         float h = Input.GetAxis("Mouse X");
         float v = Input.GetAxis("Mouse Y");
         
@@ -47,8 +74,8 @@ public class PlayerCamera : MonoBehaviour
     private void HandleRotations(float h, float v, float targetSpeed)
     {
         // Workaround for camera jump on first mouse move
-        if(h < -5 || v < -5)
-            return;
+        //if(h < -5 || v < -5)
+        //    return;
         
         _tiltAngle -= v * targetSpeed;
         _tiltAngle = Mathf.Clamp(_tiltAngle, _minAngle, _maxAngle);
@@ -56,5 +83,17 @@ public class PlayerCamera : MonoBehaviour
 
         _lookAngle += h * targetSpeed;
         transform.rotation = Quaternion.Euler(0, _lookAngle, 0);
+    }
+
+    private void OnDisable()
+    {
+        GlobalEvents.OnGamePause -= () =>
+        {
+            IsCameraLocked = false;
+        };
+        GlobalEvents.OnGameUnpause -= () =>
+        {
+            IsCameraLocked = true;
+        };
     }
 }
